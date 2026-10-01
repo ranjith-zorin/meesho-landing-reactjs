@@ -1,0 +1,96 @@
+.form-control:focus {
+  outline: 0px none #fff !important;
+}
+.input-group {
+  border: solid rgb(120, 120, 120) 1px;
+}
+.hline {
+  width: 2px;
+  height: 40px;
+  background-color: rgba(122, 120, 120, 0.831);
+}
+.categoryItem {
+  transition: transform 0.2s;
+}
+.categoryItem:hover {
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+.brandImage {
+  transition: transform 0.2s;
+}
+.brandImage:hover {
+  transform: translateY(-4px);
+}
+.rfm-marquee {
+  min-width: 96%;
+}
+.accordion:active {
+  --bs-accordion-active-color: none;
+  --bs-accordion-active-bg: none;
+}
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* .accordion-button:focus::after
+{
+  content: "";
+  height:4px;
+  width: 100px;
+} */
+.accordion-button:not(.collapsed) {
+  background-color: white;
+}
+.accordion-button {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.badge-green {
+  background-color: #23bb75 !important;
+}
+.accordion-button {
+  font-size: 18p;
+  line-height: 24px;
+  letter-spacing: 0.5;
+  font-weight: 600;
+  color: rgb(53, 53, 67);
+}
+.accordion-collapse {
+  width: 378px;
+}
+.price {
+  font-size: 24px;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  color: "#353543";
+}
+.product-title {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #8e8ea5;
+}
+.reviews {
+  color: rgb(139, 139, 163);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.discount {
+  color: rgb(3, 141, 99);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  scrollbar-width: none;
+}
